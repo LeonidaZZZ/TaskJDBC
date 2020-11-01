@@ -15,7 +15,7 @@ public class UserDaoJDBCImpl implements UserDao {
     private static final String TABLE_NAME = "USERS";
 
     public UserDaoJDBCImpl() {
-        statement = util.connect();
+        statement = Util.connect();
     }
 
     public void createUsersTable() {
