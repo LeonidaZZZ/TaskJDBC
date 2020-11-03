@@ -12,7 +12,7 @@ import java.util.List;
 public class UserDaoJDBCImpl implements UserDao {
     Util util = new Util();
     private static Statement statement;
-    private static final String TABLE_NAME = "USERS";
+    private static final String TABLE_NAME = "USER";
 
     public UserDaoJDBCImpl() {
         statement = Util.connect();
